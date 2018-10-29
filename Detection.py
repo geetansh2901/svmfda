@@ -9,7 +9,7 @@ detector = dlib.get_frontal_face_detector()
 # and pre-trained shape predictor method and providing path to .dat predictor file
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
-image = cv2.imread('images/examole.jpg')
+image = cv2.imread('F:\pythontraining\headPose.jpg')
 image = imutils.resize(image,width=500)    # resizing image for fiting in screen  
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
